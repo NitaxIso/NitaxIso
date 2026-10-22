@@ -1,5 +1,5 @@
-<svg role="img" aria-label="MOD-01 IDENTITY ? Nguy?n Ng?c Anh T?, alias ekaznyra, Cybersecurity Researcher" viewBox="0 0 900 240" width="900" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New',Consolas,ui-monospace,monospace">
-  <title>MOD-01 // IDENTITY ? about ekaznyra</title>
+<svg role="img" aria-label="MOD-01 IDENTITY — Lê Công Luyến, alias NitaxIso, Information Assurance student at FPT University" viewBox="0 0 900 240" width="900" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New',Consolas,ui-monospace,monospace">
+  <title>MOD-01 // IDENTITY — about NitaxIso</title>
   <defs>
     <linearGradient id="m01-panel" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0d111a"/>
@@ -63,7 +63,7 @@
     <rect x="8" y="8" width="884" height="224" fill="url(#m01-scanlines)"/>
     <g class="m01-beam"><rect x="8" y="-10" width="884" height="22" fill="url(#m01-scan)" opacity="0.45"/></g>
     <g opacity="0.07" fill="#22d3ee" font-size="7" letter-spacing="1">
-      <text x="20" y="222">01001110 01000111 01001111 01000011 0100 // FORENSIC.NODE // ATT&amp;CK.READY // SIGMA::YARA</text>
+      <text x="20" y="222">01001110 01000111 01001111 01000011 0100 // FORENSIC.NODE // ATT&amp;CK.READY // SNORT::YARA</text>
     </g>
     <g stroke="#283246" stroke-width="1" opacity="0.5">
       <line x1="20" y1="46" x2="20" y2="52"/><line x1="40" y1="46" x2="40" y2="50"/>
@@ -95,7 +95,7 @@
   <line x1="22" y1="52" x2="878" y2="52" stroke="#283246" stroke-width="1"/>
 
   <g font-size="11">
-    <text x="34" y="74" fill="#27c93f">ekaznyra@sec</text><text x="123" y="74" fill="#9aa6b8">:</text><text x="129" y="74" fill="#22d3ee">~$</text><text x="148" y="74" fill="#e6edf3">cat about.md</text>
+    <text x="34" y="74" fill="#27c93f">NitaxIso@sec</text><text x="123" y="74" fill="#9aa6b8">:</text><text x="129" y="74" fill="#22d3ee">~$</text><text x="148" y="74" fill="#e6edf3">cat about.md</text>
     <rect class="m01-caret" x="237" y="65" width="6" height="11" fill="#22d3ee"/>
   </g>
 
@@ -104,11 +104,14 @@
   <g>
     <text x="34" y="102" fill="#566072" font-size="10" letter-spacing="1.5"># identity</text>
     <g font-size="11.5">
-      <text x="34" y="124" fill="#22d3ee">name</text><text x="120" y="124" fill="#566072">=</text><text x="134" y="124" fill="#e6edf3" filter="url(#m01-soft)" class="m01-glitch">Nguyễn Ngọc Anh Tú</text>
-      <text x="34" y="145" fill="#22d3ee">alias</text><text x="120" y="145" fill="#566072">=</text><text x="134" y="145" fill="#ff5cf2" filter="url(#m01-soft)">ekaznyra</text>
-      <text x="34" y="166" fill="#22d3ee">role</text><text x="120" y="166" fill="#566072">=</text><text x="134" y="166" fill="#e6edf3">Cybersecurity Researcher</text>
-      <text x="34" y="187" fill="#22d3ee">location</text><text x="120" y="187" fill="#566072">=</text><text x="134" y="187" fill="#e6edf3">Vietnam</text>
-      <text x="34" y="208" fill="#22d3ee">site</text><text x="120" y="208" fill="#566072">=</text><text x="134" y="208" fill="#9aa6b8">nguyenngocanhtu.software</text>
+      <text x="34" y="124" fill="#22d3ee">name</text><text x="120" y="124" fill="#566072">=</text><text x="134" y="124" fill="#e6edf3" filter="url(#m01-soft)" class="m01-glitch">Lê Công Luyến</text>
+      <text x="34" y="145" fill="#22d3ee">alias</text><text x="120" y="145" fill="#566072">=</text><text x="134" y="145" fill="#ff5cf2" filter="url(#m01-soft)">NitaxIso</text>
+      <text x="34" y="166" fill="#22d3ee">role</text><text x="120" y="166" fill="#566072">=</text><text x="134" y="166" fill="#e6edf3">Information Assurance</text>
+      <text x="34" y="187" fill="#22d3ee">school</text><text x="120" y="187" fill="#566072">=</text><text x="134" y="187" fill="#e6edf3">FPT University</text>
+      <circle cx="246" cy="183.5" r="3.8" fill="#F37021"/>
+      <circle cx="257" cy="183.5" r="3.8" fill="#0066B2"/>
+      <circle cx="268" cy="183.5" r="3.8" fill="#51B848"/>
+      <text x="34" y="208" fill="#22d3ee">email</text><text x="120" y="208" fill="#566072">=</text><text x="134" y="208" fill="#9aa6b8">lecongluyen9a1@gmail.com</text>
     </g>
   </g>
 
@@ -116,11 +119,11 @@
     <text x="470" y="102" fill="#566072" font-size="10" letter-spacing="1.5"># research_focus</text>
     <g font-size="11">
       <text class="m01-arrow" x="470" y="124" fill="#22d3ee">▸</text><text x="486" y="124" fill="#9aa6b8">Digital Forensics &amp; Incident Response</text>
-      <text class="m01-arrow" x="470" y="145" fill="#ff5cf2" style="animation-delay:-.75s">▸</text><text x="486" y="145" fill="#9aa6b8">Detection Engineering — Sigma / YARA</text>
+      <text class="m01-arrow" x="470" y="145" fill="#ff5cf2" style="animation-delay:-.75s">▸</text><text x="486" y="145" fill="#9aa6b8">Detection Engineering — Snort / YARA</text>
       <text class="m01-arrow" x="470" y="166" fill="#22d3ee" style="animation-delay:-1.5s">▸</text><text x="486" y="166" fill="#9aa6b8">Threat Hunting — MITRE ATT&amp;CK</text>
       <text class="m01-arrow" x="470" y="187" fill="#ff5cf2" style="animation-delay:-2.25s">▸</text><text x="486" y="187" fill="#9aa6b8">Malware Behavior Analysis</text>
     </g>
   </g>
 
-  <text x="34" y="225" fill="#566072" font-size="10" font-style="italic" opacity="0.85"># "I study how systems are used — and misused."</text>
+  <text x="34" y="225" fill="#566072" font-size="10" font-style="italic" opacity="0.85"># "Just a security student learning how things work, break, and stay safe."</text>
 </svg>

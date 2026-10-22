@@ -1,23 +1,14 @@
-<svg viewBox="6.1 0 887.8 250" width="900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MOD-05 GIT LOG — stars 75, repos 6, followers 22, following 0; top languages JavaScript 50%, Python 26%, PowerShell 19%, Other 5%" font-family="'Courier New',Consolas,ui-monospace,monospace">
-  <title>MOD-05 // GIT LOG — profile stats &amp; top languages</title>
+<svg viewBox="6.1 0 887.8 250" width="900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MOD-05 GIT LOG — 57 Total Contributions, Current Streak 1 day, Longest Streak 5 days" font-family="'Courier New',Consolas,ui-monospace,monospace">
+  <title>MOD-05 // GIT LOG — GitHub Contributions &amp; Streak Summary</title>
   <defs>
     <linearGradient id="m5panel" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0d111a"/>
       <stop offset="1" stop-color="#090c12"/>
     </linearGradient>
-    <linearGradient id="m5name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#ff5cf2"/>
-    </linearGradient>
-    <linearGradient id="m5sheen" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="m5gloss" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.18"/>
+    <linearGradient id="m5ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7b00"/>
+      <stop offset="0.5" stop-color="#ff5cf2"/>
+      <stop offset="1" stop-color="#22d3ee"/>
     </linearGradient>
     <radialGradient id="m5glowC" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/>
@@ -32,49 +23,37 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="m5bloom" x="-60%" y="-80%" width="220%" height="260%">
-      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="m5blur" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="28"/>
     </filter>
-    <filter id="m5halo" x="-40%" y="-160%" width="180%" height="420%">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
     <pattern id="m5scan" width="3" height="3" patternUnits="userSpaceOnUse">
       <rect width="3" height="1" fill="#ffffff" opacity="0.02"/>
     </pattern>
     <clipPath id="m5clip"><rect x="14" y="14" width="872" height="222" rx="12"/></clipPath>
-    <clipPath id="m5bar"><rect x="470" y="122" width="388" height="12" rx="6"/></clipPath>
     <style>
       @keyframes m5pulse{0%,100%{opacity:1}50%{opacity:.35}}
       @keyframes m5ping{0%{transform:scale(1);opacity:.55}70%,100%{transform:scale(2.8);opacity:0}}
       @keyframes m5beam{0%{transform:translateX(-200px)}100%{transform:translateX(900px)}}
       @keyframes m5caret{0%,49%{opacity:1}50%,100%{opacity:0}}
-      @keyframes m5grow{0%{transform:scaleX(0);opacity:.2}100%{transform:scaleX(1);opacity:1}}
-      @keyframes m5march{to{stroke-dashoffset:-20}}
-      @keyframes m5shim{0%{transform:translateX(-160px)}55%,100%{transform:translateX(430px)}}
       @keyframes m5eq{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}
-      @keyframes m5tw{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.82)}}
-      @keyframes m5val{0%,100%{opacity:1}50%{opacity:.7}}
+      @keyframes m5val{0%,100%{opacity:1}50%{opacity:.78}}
       @keyframes m5breathe{0%,100%{opacity:.72}50%{opacity:.4}}
       @keyframes m5orb{0%,100%{opacity:.5}50%{opacity:.72}}
-      @keyframes m5data{0%{transform:translateX(0)}100%{transform:translateX(-260px)}}
+      @keyframes m5flame{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
       .m5led{animation:m5pulse 2.2s ease-in-out infinite;transform-origin:center}
       .m5ping{animation:m5ping 2.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
       .m5beam{animation:m5beam 7s linear infinite}
       .m5caret{animation:m5caret 1.05s steps(1) infinite}
-      .m5segwrap{animation:m5grow 1.4s cubic-bezier(.2,.7,.2,1) both;transform-origin:470px 128px}
-      .m5lead{animation:m5march 1.1s linear infinite}
-      .m5shim{animation:m5shim 4.5s ease-in-out infinite}
       .m5eqbar{animation:m5eq 1.15s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}
-      .m5tw{animation:m5tw 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       .m5val{animation:m5val 2.6s ease-in-out infinite}
       .m5breathe{animation:m5breathe 4s ease-in-out infinite}
       .m5orb{animation:m5orb 6s ease-in-out infinite}
-      .m5data{animation:m5data 26s linear infinite}
+      .m5flame{animation:m5flame 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       @media (prefers-reduced-motion:reduce){
-        .m5led,.m5ping,.m5beam,.m5caret,.m5segwrap,.m5lead,.m5shim,.m5eqbar,.m5tw,.m5val,.m5breathe,.m5orb,.m5data{animation:none}
+        .m5led,.m5ping,.m5beam,.m5caret,.m5eqbar,.m5val,.m5breathe,.m5orb,.m5flame{animation:none}
       }
     </style>
   </defs>
@@ -88,9 +67,6 @@
     <circle class="m5orb" cx="800" cy="220" r="160" fill="url(#m5glowM)" filter="url(#m5blur)" opacity="0.45" style="animation-delay:-3s"/>
     <rect x="14" y="14" width="872" height="222" fill="url(#m5scan)"/>
     <g class="m5beam"><rect x="14" y="14" width="150" height="222" fill="url(#m5glowC)" opacity="0.05"/></g>
-    <g class="m5data" fill="#22d3ee" opacity="0.08" font-size="7" letter-spacing="2">
-      <text x="26" y="230">01000111 01001001 01010100 00100000 01001100 01001111 01000111 // COMMIT.HISTORY // 01000111 01001001 01010100</text>
-    </g>
   </g>
 
   <!-- corner reticles -->
@@ -106,7 +82,7 @@
     <circle class="m5ping" cx="42" cy="42" r="4.5" fill="none" stroke="#27c93f" stroke-width="1.4"/>
     <circle class="m5led" cx="42" cy="42" r="4.5" fill="#27c93f" filter="url(#m5soft)"/>
     <circle cx="42" cy="42" r="4.5" fill="none" stroke="#27c93f" stroke-width="1" opacity="0.4"/>
-    <text x="58" y="46" fill="#22d3ee" font-size="12.5" letter-spacing="2.5" font-weight="bold" filter="url(#m5bloom)">MOD-05 // GIT LOG</text>
+    <text x="58" y="46" fill="#22d3ee" font-size="12.5" letter-spacing="2.5" font-weight="bold" filter="url(#m5bloom)">MOD-05 // CONTRIBUTIONS SUMMARY</text>
     <g fill="#22d3ee">
       <rect class="m5eqbar" x="792" y="35" width="3" height="13"/>
       <rect class="m5eqbar" x="797" y="35" width="3" height="13" style="animation-delay:-.35s"/>
@@ -119,73 +95,45 @@
 
   <!-- prompt -->
   <g font-size="12.5">
-    <text x="40" y="80"><tspan fill="#27c93f">ekaznyra@sec</tspan><tspan fill="#9aa6b8">:</tspan><tspan fill="#22d3ee">~$</tspan><tspan fill="#e6edf3"> git log --stat --graph</tspan></text>
-    <rect class="m5caret" x="341" y="71" width="7" height="11" fill="#22d3ee"/>
+    <text x="40" y="80"><tspan fill="#27c93f">NitaxIso@sec</tspan><tspan fill="#9aa6b8">:</tspan><tspan fill="#22d3ee">~$</tspan><tspan fill="#e6edf3"> git log --contributions --streak</tspan></text>
+    <rect class="m5caret" x="394" y="71" width="7" height="11" fill="#22d3ee"/>
   </g>
 
-  <!-- column divider -->
-  <line x1="450" y1="98" x2="450" y2="216" stroke="#1b2230" stroke-width="1"/>
+  <!-- Vertical dividers between 3 columns -->
+  <line x1="305" y1="100" x2="305" y2="218" stroke="#1b2230" stroke-width="1.2"/>
+  <line x1="595" y1="100" x2="595" y2="218" stroke="#1b2230" stroke-width="1.2"/>
 
-  <!-- ===== LEFT: summary ===== -->
-  <text x="40" y="110" fill="#566072" font-size="10" letter-spacing="1.5"># summary</text>
-  <g font-size="12.5" letter-spacing="0.5">
-    <!-- stars -->
-    <text x="40" y="140" fill="#9aa6b8">stars</text>
-    <line class="m5lead" x1="112" y1="136" x2="384" y2="136" stroke="#283246" stroke-width="1" stroke-dasharray="1 4"/>
-    <g class="m5tw"><text x="392" y="140" fill="#ffbd2e" font-size="11" text-anchor="end">★</text></g>
-    <text class="m5val" x="418" y="140" fill="#ffbd2e" font-weight="bold" text-anchor="end" filter="url(#m5bloom)">75</text>
-    <!-- repos -->
-    <text x="40" y="166" fill="#9aa6b8">repos</text>
-    <line class="m5lead" x1="112" y1="162" x2="398" y2="162" stroke="#283246" stroke-width="1" stroke-dasharray="1 4"/>
-    <text x="418" y="166" fill="#e6edf3" font-weight="bold" text-anchor="end">06</text>
-    <!-- followers -->
-    <text x="40" y="192" fill="#9aa6b8">followers</text>
-    <line class="m5lead" x1="150" y1="188" x2="398" y2="188" stroke="#283246" stroke-width="1" stroke-dasharray="1 4"/>
-    <text x="418" y="192" fill="#e6edf3" font-weight="bold" text-anchor="end">22</text>
-    <!-- following -->
-    <text x="40" y="218" fill="#9aa6b8">following</text>
-    <line class="m5lead" x1="150" y1="214" x2="398" y2="214" stroke="#283246" stroke-width="1" stroke-dasharray="1 4"/>
-    <text x="418" y="218" fill="#e6edf3" font-weight="bold" text-anchor="end">00</text>
+  <!-- COLUMN 1: Total Contributions -->
+  <g text-anchor="middle">
+    <text class="m5val" x="165" y="148" fill="#e6edf3" font-size="34" font-weight="bold" filter="url(#m5bloom)">57</text>
+    <text x="165" y="176" fill="#22d3ee" font-size="12" font-weight="bold" letter-spacing="0.5">Total Contributions</text>
+    <text x="165" y="196" fill="#7d8590" font-size="10">Mar 2026 – Present</text>
+    <text x="165" y="213" fill="#566072" font-size="9.5">6 public repos · 21 active days</text>
   </g>
 
-  <!-- ===== RIGHT: top languages ===== -->
-  <text x="470" y="110" fill="#566072" font-size="10" letter-spacing="1.5"># top languages</text>
-
-  <!-- neon halo behind bar -->
-  <rect x="470" y="121" width="388" height="14" rx="7" fill="url(#m5name)" opacity="0.4" filter="url(#m5halo)"/>
-
-  <!-- track -->
-  <rect x="470" y="122" width="388" height="12" rx="6" fill="#0e1620" stroke="#283246" stroke-width="1"/>
-
-  <!-- segments + gloss + sheen (clipped to rounded bar) -->
-  <g clip-path="url(#m5bar)">
-    <g class="m5segwrap">
-      <rect x="470" y="122" width="191" height="12" fill="#f7df1e"/>
-      <rect x="663" y="122" width="99"  height="12" fill="#3572A5"/>
-      <rect x="764" y="122" width="73"  height="12" fill="#5391fe"/>
-      <rect x="839" y="122" width="19"  height="12" fill="#566072"/>
-      <rect x="470" y="122" width="388" height="12" fill="url(#m5gloss)"/>
+  <!-- COLUMN 2: Current Streak (Circular Ring + Flame) -->
+  <g text-anchor="middle">
+    <!-- Outer track circle -->
+    <circle cx="450" cy="142" r="36" fill="none" stroke="#1f2937" stroke-width="5"/>
+    <!-- Active neon ring -->
+    <circle cx="450" cy="142" r="36" fill="none" stroke="url(#m5ring)" stroke-width="5" stroke-dasharray="190 40" stroke-linecap="round" transform="rotate(-70 450 142)" filter="url(#m5soft)"/>
+    <!-- Flame icon at top of ring -->
+    <g class="m5flame" transform="translate(450,104)">
+      <circle cx="0" cy="0" r="9" fill="#0b0f17"/>
+      <path d="M0 -7 C3 -3 5 0 5 3 C5 6 2.8 8 0 8 C-2.8 8 -5 6 -5 3 C-5 0 -3 -3 0 -7 Z" fill="#ff7b00"/>
+      <path d="M0 -2 C1.5 0 2.5 2 2.5 3.8 C2.5 5.5 1.4 6.5 0 6.5 C-1.4 6.5 -2.5 5.5 -2.5 3.8 C-2.5 2 -1.5 0 0 -2 Z" fill="#ffd43b"/>
     </g>
-    <g class="m5shim"><rect x="470" y="122" width="120" height="12" fill="url(#m5sheen)"/></g>
+    <!-- Streak number -->
+    <text class="m5val" x="450" y="151" fill="#e6edf3" font-size="26" font-weight="bold" filter="url(#m5bloom)">1</text>
+    <text x="450" y="196" fill="#ff9900" font-size="12" font-weight="bold" letter-spacing="0.5">Current Streak</text>
+    <text x="450" y="213" fill="#7d8590" font-size="10">Active Today</text>
   </g>
 
-  <!-- legend -->
-  <g font-size="11.5">
-    <!-- JavaScript -->
-    <circle cx="478" cy="154" r="4" fill="#f7df1e"/>
-    <text x="492" y="158" fill="#e6edf3">JavaScript</text>
-    <text x="858" y="158" fill="#9aa6b8" text-anchor="end">50.0%</text>
-    <!-- Python -->
-    <circle cx="478" cy="176" r="4" fill="#3572A5"/>
-    <text x="492" y="180" fill="#e6edf3">Python</text>
-    <text x="858" y="180" fill="#9aa6b8" text-anchor="end">26.0%</text>
-    <!-- PowerShell -->
-    <circle cx="478" cy="198" r="4" fill="#5391fe"/>
-    <text x="492" y="202" fill="#e6edf3">PowerShell</text>
-    <text x="858" y="202" fill="#9aa6b8" text-anchor="end">19.0%</text>
-    <!-- Other -->
-    <circle cx="478" cy="220" r="4" fill="#566072"/>
-    <text x="492" y="224" fill="#e6edf3">Other</text>
-    <text x="858" y="224" fill="#9aa6b8" text-anchor="end">5.0%</text>
+  <!-- COLUMN 3: Longest Streak -->
+  <g text-anchor="middle">
+    <text class="m5val" x="735" y="148" fill="#e6edf3" font-size="34" font-weight="bold" filter="url(#m5bloom)">5</text>
+    <text x="735" y="176" fill="#ff5cf2" font-size="12" font-weight="bold" letter-spacing="0.5">Longest Streak</text>
+    <text x="735" y="196" fill="#7d8590" font-size="10">May 31 – Jun 4, 2026</text>
+    <text x="735" y="213" fill="#566072" font-size="9.5">Consecutive Commit Days</text>
   </g>
 </svg>

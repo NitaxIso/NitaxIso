@@ -1,5 +1,5 @@
-<svg role="img" aria-label="MOD-04 TELEMETRY ? detection radar and metrics" viewBox="-7.1 0 914.2 190" width="900" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New',Consolas,ui-monospace,monospace">
-  <title>MOD-04 // TELEMETRY ? detection radar</title>
+<svg role="img" aria-label="MOD-04 TELEMETRY — detection radar and metrics" viewBox="-7.1 0 914.2 190" width="900" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New',Consolas,ui-monospace,monospace">
+  <title>MOD-04 // TELEMETRY — detection radar</title>
   <defs>
     <linearGradient id="m4panel" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0d111a"/>
@@ -61,7 +61,6 @@
     <ellipse cx="150" cy="120" rx="200" ry="150" fill="url(#m4glowC)" filter="url(#m4blur)" opacity="0.5"/>
     <ellipse cx="760" cy="40" rx="220" ry="150" fill="url(#m4glowM)" filter="url(#m4blur)" opacity="0.45"/>
     <rect x="1" y="1" width="898" height="188" fill="url(#m4scan)"/>
-    <!-- edge telemetry ticks -->
     <g stroke="#22d3ee" stroke-width="1" opacity="0.10">
       <line x1="20" y1="176" x2="880" y2="176"/>
     </g>
@@ -70,7 +69,6 @@
     </g>
   </g>
 
-  <!-- inner neon edge -->
   <rect x="3.5" y="3.5" width="893" height="183" rx="10.5" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.16"/>
 
   <!-- corner reticles -->
@@ -96,27 +94,23 @@
   <g transform="translate(10,26) scale(0.84)">
     <circle cx="148" cy="98" r="72" fill="url(#m4scope)" stroke="#283246" stroke-width="1.2"/>
     <g clip-path="url(#m4scopeClip)">
-      <!-- range rings -->
       <g fill="none" stroke="#22d3ee" stroke-width="1">
         <circle cx="148" cy="98" r="18" opacity="0.28"/>
         <circle cx="148" cy="98" r="36" opacity="0.22"/>
         <circle cx="148" cy="98" r="54" opacity="0.18"/>
         <circle cx="148" cy="98" r="72" opacity="0.14"/>
       </g>
-      <!-- crosshair -->
       <g stroke="#22d3ee" stroke-width="0.8" opacity="0.18">
         <line x1="76" y1="98" x2="220" y2="98"/>
         <line x1="148" y1="26" x2="148" y2="170"/>
         <line x1="97" y1="47" x2="199" y2="149"/>
         <line x1="199" y1="47" x2="97" y2="149"/>
       </g>
-      <!-- sweep beam -->
       <g>
         <path d="M148 98 L148 26 A72 72 0 0 1 217 78 Z" fill="url(#m4sweep)"/>
         <line x1="148" y1="98" x2="148" y2="26" stroke="#22d3ee" stroke-width="1.4" opacity="0.9"/>
         <animateTransform attributeName="transform" type="rotate" from="0 148 98" to="360 148 98" dur="4s" repeatCount="indefinite"/>
       </g>
-      <!-- blips -->
       <g fill="#27c93f">
         <circle cx="172" cy="74" r="2.6"><animate attributeName="opacity" values="1;0.3;1" dur="4s" repeatCount="indefinite"/></circle>
         <circle cx="118" cy="120" r="2.2" fill="#ffbd2e"><animate attributeName="opacity" values="0.4;1;0.4" dur="4s" begin="1.2s" repeatCount="indefinite"/></circle>
@@ -138,17 +132,17 @@
     <text x="330" y="100" fill="#566072" letter-spacing="2">.......................</text>
     <text class="m4val" x="566" y="100" fill="#e6edf3" font-weight="bold">06</text>
 
-    <text x="270" y="120" fill="#9aa6b8">stars</text>
-    <text x="330" y="120" fill="#566072" letter-spacing="2">.......................</text>
-    <text class="m4val" x="566" y="120" fill="#ffbd2e" font-weight="bold" filter="url(#m4soft)" style="animation-delay:-.6s">75</text>
+    <text x="270" y="120" fill="#9aa6b8">contributions</text>
+    <text x="392" y="120" fill="#566072" letter-spacing="2">...............</text>
+    <text class="m4val" x="566" y="120" fill="#ffbd2e" font-weight="bold" filter="url(#m4soft)" style="animation-delay:-.6s">57</text>
 
-    <text x="270" y="140" fill="#9aa6b8">followers</text>
+    <text x="270" y="140" fill="#9aa6b8">active_days</text>
     <text x="375" y="140" fill="#566072" letter-spacing="2">...................</text>
-    <text class="m4val" x="566" y="140" fill="#e6edf3" font-weight="bold" style="animation-delay:-1.2s">22</text>
+    <text class="m4val" x="566" y="140" fill="#e6edf3" font-weight="bold" style="animation-delay:-1.2s">21</text>
 
     <text x="270" y="160" fill="#9aa6b8">focus</text>
     <text x="330" y="160" fill="#566072" letter-spacing="2">..............</text>
-    <text x="480" y="160" fill="#22d3ee" font-weight="bold">detection · DFIR</text>
+    <text x="480" y="160" fill="#22d3ee" font-weight="bold">Snort · YARA · DFIR</text>
   </g>
 
   <!-- sensors online badge -->

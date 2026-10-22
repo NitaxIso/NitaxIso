@@ -1,13 +1,9 @@
-<svg role="img" aria-label="MOD-03 ARSENAL ? cybersecurity stack and toolset" viewBox="6.1 0 887.8 260" width="900" xmlns="http://www.w3.org/2000/svg" font-family="&quot;Courier New&quot;,Consolas,ui-monospace,monospace">
-  <title>MOD-03 // ARSENAL ? technical stack</title>
+<svg role="img" aria-label="MOD-03 TOOLKIT — cybersecurity stack and toolset with icons" viewBox="6.1 0 887.8 260" width="900" xmlns="http://www.w3.org/2000/svg" font-family="&quot;Courier New&quot;,Consolas,ui-monospace,monospace">
+  <title>MOD-03 // TOOLKIT — technical stack</title>
   <defs>
     <linearGradient id="m3-panel" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0d111a"/>
       <stop offset="1" stop-color="#090c12"/>
-    </linearGradient>
-    <linearGradient id="m3-name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#ff5cf2"/>
     </linearGradient>
     <radialGradient id="m3-glowC" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/>
@@ -57,14 +53,10 @@
   <rect x="15.5" y="15.5" width="869" height="229" rx="11" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.16"/>
 
   <g clip-path="url(#m3-clip)">
-    <!-- depth glows -->
     <circle cx="120" cy="60" r="140" fill="url(#m3-glowC)" filter="url(#m3-blur)" opacity="0.5"/>
     <circle cx="800" cy="230" r="150" fill="url(#m3-glowM)" filter="url(#m3-blur)" opacity="0.45"/>
-    <!-- scanlines -->
     <rect x="14" y="14" width="872" height="232" fill="url(#m3-scan)"/>
-    <!-- scan beam -->
     <g class="m3beam"><rect x="0" y="14" width="160" height="232" fill="url(#m3-glowC)" opacity="0.06"/></g>
-    <!-- edge telemetry ticks -->
     <g stroke="#283246" stroke-width="1" opacity="0.5">
       <line x1="26" y1="62" x2="26" y2="238"/>
     </g>
@@ -86,13 +78,12 @@
     <circle class="m3ping" cx="42" cy="42" r="4.5" fill="none" stroke="#27c93f" stroke-width="1.4"/>
     <circle cx="42" cy="42" r="4.5" fill="#27c93f" class="m3led"/>
     <circle cx="42" cy="42" r="4.5" fill="none" stroke="#27c93f" stroke-width="1" opacity="0.4"/>
-    <text x="58" y="46" fill="#22d3ee" font-size="12.5" letter-spacing="2.5" filter="url(#m3-soft)">MOD-03 // ARSENAL</text>
-    <!-- right readout + signal bars (equalizer) -->
+    <text x="58" y="46" fill="#22d3ee" font-size="12.5" letter-spacing="2.5" filter="url(#m3-soft)">MOD-03 // TOOLKIT</text>
     <g transform="translate(792,38)">
       <rect class="m3eqbar" x="0" y="-4" width="3" height="10" fill="#22d3ee" opacity="0.5"/>
       <rect class="m3eqbar" x="5" y="-4" width="3" height="10" fill="#22d3ee" opacity="0.65" style="animation-delay:-.3s"/>
       <rect class="m3eqbar" x="10" y="-4" width="3" height="10" fill="#22d3ee" opacity="0.8" style="animation-delay:-.6s"/>
-      <rect class="m3eqbar" x="15" y="-4" width="3" height="10" fill="#22d3ee" style="animation-delay:-.85s"/>
+      <rect class="m3eqbar" x="15" y="-4" width="3" height="10" fill="#22d3ee" opacity="0.95" style="animation-delay:-.85s"/>
     </g>
     <text x="780" y="46" fill="#7d8590" font-size="10.5" text-anchor="end" letter-spacing="1.5">~/stack</text>
   </g>
@@ -100,7 +91,7 @@
 
   <!-- prompt -->
   <g font-size="12" letter-spacing="0.4">
-    <text x="40" y="80" fill="#27c93f">ekaznyra@sec</text>
+    <text x="40" y="80" fill="#27c93f">NitaxIso@sec</text>
     <text x="133" y="80" fill="#9aa6b8">:</text>
     <text x="140" y="80" fill="#22d3ee">~</text>
     <text x="148" y="80" fill="#9aa6b8">$</text>
@@ -119,46 +110,111 @@
     <text x="788" y="190">   \_/   </text>
   </g>
 
-  <!-- groups -->
-  <!-- helper visual: gutter labels cyan, pills tinted -->
+  <!-- groups with color-coded mini-icons inside pills -->
   <g font-size="11">
     <!-- languages -->
-    <text x="40" y="111" fill="#22d3ee" letter-spacing="1" text-anchor="end" transform="translate(150,0)">languages:</text>
-    <g transform="translate(205,100)" font-size="10.5">
-      <g><rect x="0" y="0" width="64" height="18" rx="9" fill="#22d3ee" opacity="0.10"/><rect x="0" y="0" width="64" height="18" rx="9" fill="none" stroke="#22d3ee" opacity="0.35"/><text x="32" y="13" fill="#e6edf3" text-anchor="middle">Python</text></g>
-      <g transform="translate(72,0)"><rect width="48" height="18" rx="9" fill="#22d3ee" opacity="0.10"/><rect width="48" height="18" rx="9" fill="none" stroke="#22d3ee" opacity="0.35"/><text x="24" y="13" fill="#e6edf3" text-anchor="middle">Bash</text></g>
-      <g transform="translate(128,0)"><rect width="92" height="18" rx="9" fill="#22d3ee" opacity="0.10"/><rect width="92" height="18" rx="9" fill="none" stroke="#22d3ee" opacity="0.35"/><text x="46" y="13" fill="#e6edf3" text-anchor="middle">PowerShell</text></g>
+    <text x="40" y="112" fill="#22d3ee" letter-spacing="1" text-anchor="end" transform="translate(150,0)">languages:</text>
+    <g transform="translate(205,99)" font-size="10.5">
+      <g>
+        <rect x="0" y="0" width="80" height="20" rx="6" fill="#3572A5" opacity="0.18" stroke="#3572A5" stroke-opacity="0.55"/>
+        <circle cx="13" cy="10" r="3.5" fill="#ffd43b"/>
+        <text x="46" y="14" fill="#e6edf3" text-anchor="middle">Python</text>
+      </g>
+      <g transform="translate(88,0)">
+        <rect width="68" height="20" rx="6" fill="#22d3ee" opacity="0.12" stroke="#22d3ee" stroke-opacity="0.4"/>
+        <text x="14" y="14" fill="#27c93f" font-weight="bold">$_</text>
+        <text x="44" y="14" fill="#e6edf3" text-anchor="middle">Bash</text>
+      </g>
+      <g transform="translate(164,0)">
+        <rect width="108" height="20" rx="6" fill="#012456" opacity="0.55" stroke="#5391fe" stroke-opacity="0.55"/>
+        <text x="14" y="14" fill="#5391fe" font-weight="bold">&gt;_</text>
+        <text x="62" y="14" fill="#e6edf3" text-anchor="middle">PowerShell</text>
+      </g>
+      <g transform="translate(280,0)">
+        <rect width="52" height="20" rx="6" fill="#555555" opacity="0.3" stroke="#a8b9cc" stroke-opacity="0.55"/>
+        <circle cx="13" cy="10" r="3.5" fill="#a8b9cc"/>
+        <text x="33" y="14" fill="#e6edf3" text-anchor="middle">C</text>
+      </g>
     </g>
 
     <!-- detection -->
-    <text x="40" y="139" fill="#ff5cf2" letter-spacing="1" text-anchor="end" transform="translate(150,0)">detection:</text>
-    <g transform="translate(205,128)" font-size="10.5">
-      <g><rect width="48" height="18" rx="9" fill="#ff5cf2" opacity="0.10"/><rect width="48" height="18" rx="9" fill="none" stroke="#ff5cf2" opacity="0.35"/><text x="24" y="13" fill="#e6edf3" text-anchor="middle">YARA</text></g>
-      <g transform="translate(56,0)"><rect width="52" height="18" rx="9" fill="#ff5cf2" opacity="0.10"/><rect width="52" height="18" rx="9" fill="none" stroke="#ff5cf2" opacity="0.35"/><text x="26" y="13" fill="#e6edf3" text-anchor="middle">Sigma</text></g>
-      <g transform="translate(116,0)"><rect width="116" height="18" rx="9" fill="#ff5cf2" opacity="0.10"/><rect width="116" height="18" rx="9" fill="none" stroke="#ff5cf2" opacity="0.35"/><text x="58" y="13" fill="#e6edf3" text-anchor="middle">MITRE ATT&amp;CK</text></g>
+    <text x="40" y="140" fill="#ff5cf2" letter-spacing="1" text-anchor="end" transform="translate(150,0)">detection:</text>
+    <g transform="translate(205,127)" font-size="10.5">
+      <g>
+        <rect width="64" height="20" rx="6" fill="#ff5cf2" opacity="0.12" stroke="#ff5cf2" stroke-opacity="0.42"/>
+        <circle cx="13" cy="10" r="3.2" fill="#ff5cf2"/>
+        <text x="38" y="14" fill="#e6edf3" text-anchor="middle">YARA</text>
+      </g>
+      <g transform="translate(72,0)">
+        <rect width="68" height="20" rx="6" fill="#ff5cf2" opacity="0.12" stroke="#ff5cf2" stroke-opacity="0.42"/>
+        <circle cx="13" cy="10" r="3.2" fill="#ffbd2e"/>
+        <text x="40" y="14" fill="#e6edf3" text-anchor="middle">Snort</text>
+      </g>
+      <g transform="translate(148,0)">
+        <rect width="128" height="20" rx="6" fill="#ff5cf2" opacity="0.12" stroke="#ff5cf2" stroke-opacity="0.42"/>
+        <circle cx="14" cy="10" r="3.2" fill="#22d3ee"/>
+        <text x="70" y="14" fill="#e6edf3" text-anchor="middle">MITRE ATT&amp;CK</text>
+      </g>
     </g>
 
     <!-- siem -->
-    <text x="40" y="167" fill="#22d3ee" letter-spacing="1" text-anchor="end" transform="translate(150,0)">siem:</text>
-    <g transform="translate(205,156)" font-size="10.5">
-      <g><rect width="58" height="18" rx="9" fill="#22d3ee" opacity="0.10"/><rect width="58" height="18" rx="9" fill="none" stroke="#22d3ee" opacity="0.35"/><text x="29" y="13" fill="#e6edf3" text-anchor="middle">Splunk</text></g>
-      <g transform="translate(66,0)"><rect width="108" height="18" rx="9" fill="#22d3ee" opacity="0.10"/><rect width="108" height="18" rx="9" fill="none" stroke="#22d3ee" opacity="0.35"/><text x="54" y="13" fill="#e6edf3" text-anchor="middle">Elastic / ELK</text></g>
+    <text x="40" y="168" fill="#22d3ee" letter-spacing="1" text-anchor="end" transform="translate(150,0)">siem:</text>
+    <g transform="translate(205,155)" font-size="10.5">
+      <g>
+        <rect width="74" height="20" rx="6" fill="#22d3ee" opacity="0.12" stroke="#22d3ee" stroke-opacity="0.4"/>
+        <circle cx="13" cy="10" r="3.2" fill="#27c93f"/>
+        <text x="43" y="14" fill="#e6edf3" text-anchor="middle">Splunk</text>
+      </g>
+      <g transform="translate(82,0)">
+        <rect width="122" height="20" rx="6" fill="#22d3ee" opacity="0.12" stroke="#22d3ee" stroke-opacity="0.4"/>
+        <circle cx="14" cy="10" r="3.2" fill="#22d3ee"/>
+        <text x="67" y="14" fill="#e6edf3" text-anchor="middle">Elastic / ELK</text>
+      </g>
     </g>
 
     <!-- dfir -->
-    <text x="40" y="195" fill="#ff5cf2" letter-spacing="1" text-anchor="end" transform="translate(150,0)">dfir:</text>
-    <g transform="translate(205,184)" font-size="10.5">
-      <g><rect width="78" height="18" rx="9" fill="#ff5cf2" opacity="0.10"/><rect width="78" height="18" rx="9" fill="none" stroke="#ff5cf2" opacity="0.32"/><text x="39" y="13" fill="#e6edf3" text-anchor="middle">Wireshark</text></g>
-      <g transform="translate(86,0)"><rect width="80" height="18" rx="9" fill="#ff5cf2" opacity="0.10"/><rect width="80" height="18" rx="9" fill="none" stroke="#ff5cf2" opacity="0.32"/><text x="40" y="13" fill="#e6edf3" text-anchor="middle">Volatility</text></g>
+    <text x="40" y="196" fill="#ff5cf2" letter-spacing="1" text-anchor="end" transform="translate(150,0)">dfir:</text>
+    <g transform="translate(205,183)" font-size="10.5">
+      <g>
+        <rect width="94" height="20" rx="6" fill="#ff5cf2" opacity="0.12" stroke="#ff5cf2" stroke-opacity="0.38"/>
+        <circle cx="14" cy="10" r="3.2" fill="#22d3ee"/>
+        <text x="53" y="14" fill="#e6edf3" text-anchor="middle">Wireshark</text>
+      </g>
+      <g transform="translate(102,0)">
+        <rect width="98" height="20" rx="6" fill="#ff5cf2" opacity="0.12" stroke="#ff5cf2" stroke-opacity="0.38"/>
+        <circle cx="14" cy="10" r="3.2" fill="#ff5cf2"/>
+        <text x="55" y="14" fill="#e6edf3" text-anchor="middle">Volatility</text>
+      </g>
     </g>
 
     <!-- platforms -->
-    <text x="40" y="223" fill="#27c93f" letter-spacing="1" text-anchor="end" transform="translate(150,0)">platforms:</text>
-    <g transform="translate(205,212)" font-size="10.5">
-      <g><rect width="48" height="18" rx="9" fill="#27c93f" opacity="0.10"/><rect width="48" height="18" rx="9" fill="none" stroke="#27c93f" opacity="0.32"/><text x="24" y="13" fill="#e6edf3" text-anchor="middle">Linux</text></g>
-      <g transform="translate(56,0)"><rect width="64" height="18" rx="9" fill="#27c93f" opacity="0.10"/><rect width="64" height="18" rx="9" fill="none" stroke="#27c93f" opacity="0.32"/><text x="32" y="13" fill="#e6edf3" text-anchor="middle">Windows</text></g>
-      <g transform="translate(128,0)"><rect width="58" height="18" rx="9" fill="#27c93f" opacity="0.10"/><rect width="58" height="18" rx="9" fill="none" stroke="#27c93f" opacity="0.32"/><text x="29" y="13" fill="#e6edf3" text-anchor="middle">Docker</text></g>
-      <g transform="translate(194,0)"><rect width="38" height="18" rx="9" fill="#27c93f" opacity="0.10"/><rect width="38" height="18" rx="9" fill="none" stroke="#27c93f" opacity="0.32"/><text x="19" y="13" fill="#e6edf3" text-anchor="middle">Git</text></g>
+    <text x="40" y="224" fill="#27c93f" letter-spacing="1" text-anchor="end" transform="translate(150,0)">platforms:</text>
+    <g transform="translate(205,211)" font-size="10.5">
+      <g>
+        <rect width="66" height="20" rx="6" fill="#27c93f" opacity="0.12" stroke="#27c93f" stroke-opacity="0.38"/>
+        <circle cx="13" cy="10" r="3.2" fill="#ffbd2e"/>
+        <text x="39" y="14" fill="#e6edf3" text-anchor="middle">Linux</text>
+      </g>
+      <g transform="translate(74,0)">
+        <rect width="80" height="20" rx="6" fill="#27c93f" opacity="0.12" stroke="#27c93f" stroke-opacity="0.38"/>
+        <circle cx="13" cy="10" r="3.2" fill="#00a4ef"/>
+        <text x="46" y="14" fill="#e6edf3" text-anchor="middle">Windows</text>
+      </g>
+      <g transform="translate(162,0)">
+        <rect width="74" height="20" rx="6" fill="#27c93f" opacity="0.12" stroke="#27c93f" stroke-opacity="0.38"/>
+        <circle cx="13" cy="10" r="3.2" fill="#2496ed"/>
+        <text x="43" y="14" fill="#e6edf3" text-anchor="middle">Docker</text>
+      </g>
+      <g transform="translate(244,0)">
+        <rect width="54" height="20" rx="6" fill="#27c93f" opacity="0.12" stroke="#27c93f" stroke-opacity="0.38"/>
+        <circle cx="13" cy="10" r="3.2" fill="#f05032"/>
+        <text x="33" y="14" fill="#e6edf3" text-anchor="middle">Git</text>
+      </g>
+      <g transform="translate(306,0)">
+        <rect width="62" height="20" rx="6" fill="#ff9900" opacity="0.14" stroke="#ff9900" stroke-opacity="0.45"/>
+        <circle cx="13" cy="10" r="3.2" fill="#ff9900"/>
+        <text x="37" y="14" fill="#e6edf3" text-anchor="middle">AWS</text>
+      </g>
     </g>
   </g>
 
