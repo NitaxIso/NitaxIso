@@ -134,11 +134,11 @@
 
     <text x="270" y="120" fill="#9aa6b8">contributions</text>
     <text x="392" y="120" fill="#566072" letter-spacing="2">...............</text>
-    <text class="m4val" x="566" y="120" fill="#ffbd2e" font-weight="bold" filter="url(#m4soft)" style="animation-delay:-.6s">58</text>
+    <text class="m4val" x="566" y="120" fill="#ffbd2e" font-weight="bold" filter="url(#m4soft)" style="animation-delay:-.6s">59</text>
 
     <text x="270" y="140" fill="#9aa6b8">active_days</text>
     <text x="375" y="140" fill="#566072" letter-spacing="2">...................</text>
-    <text class="m4val" x="566" y="140" fill="#e6edf3" font-weight="bold" style="animation-delay:-1.2s">21</text>
+    <text class="m4val" x="566" y="140" fill="#e6edf3" font-weight="bold" style="animation-delay:-1.2s">22</text>
 
     <text x="270" y="160" fill="#9aa6b8">focus</text>
     <text x="330" y="160" fill="#566072" letter-spacing="2">..............</text>
