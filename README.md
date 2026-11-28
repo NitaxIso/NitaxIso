@@ -38,7 +38,7 @@
 <!-- ─── STATS ──────────────────────────────────────────────────── -->
 
 <div align="center">
-  <img src="assets/stats.svg" width="100%" alt="MOD-05 · Git Log — stars 0 · repos 6 · followers 0"/>
+  <img src="assets/stats.svg" width="100%" alt="MOD-05 · Git Log — stars 0 · repos 3 · followers 0"/>
 </div>
 
 <br/>
